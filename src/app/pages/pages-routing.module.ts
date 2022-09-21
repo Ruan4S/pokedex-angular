@@ -10,7 +10,7 @@ const routes: Routes = [
     title: 'Home | Pokedex',
   },
   {
-    path: 'details',
+    path: 'details/:id',
     component: DetailsComponent,
     title: 'Details | Pokedex',
   },
